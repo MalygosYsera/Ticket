@@ -1,0 +1,93 @@
+<resources>
+    <string name="app_name">火车查询</string>
+    <string name="type_tips">请输入文字</string>
+    <string name="record_voice_tips">按住说话</string>
+    <string name="send_btn">发送</string>
+
+    <string name="validate_method_voice">声纹验证</string>
+    <string name="validate_method_password">密码验证</string>
+
+
+    <string name="amount_ok">确认</string>
+    <string name="please_validate_voice">请按住验证声纹</string>
+    <string name="please_validate_voice_listening">聆听中</string>
+    <string name="please_validate_voice_validating">声纹验证中</string>
+    <string name="please_validate_voice_success">声纹验证成功！</string>
+    <string name="please_validate_voice_fail">验证失败，请重新验证</string>
+    <string name="confirm">密码验证</string>
+
+    <string name="confirm_btn">确认</string>
+    <string name="cancel_btn">取消</string>
+
+    <string name="into_hello_txt">您好，我叫小爽爽</string>
+    <string name="into_line1_txt">我是您的智能语音助理</string>
+    <string name="into_line2_txt">我可以帮您办理转账、缴费等银行业务</string>
+    <string name="into_line3_txt">也可以为您解答其他银行业务疑问</string>
+    <string name="into_line4_txt">我会不断努力学习，为您提供更好的服务</string>
+
+    <string name="weather_key">d0e5ed38af9c606645213517f79a5ff3</string>
+
+    <!--限号查询-->
+    <string name="traffic_restriction_title">贵阳市一环线内（含）限行政策</string>
+    <string name="traffic_restriction_tips">今日限行</string>
+    <string name="traffic_restriction_time_range">07:00-20:00</string>
+    <string name="traffic_restriction_work_day">工作日</string>
+    <string name="traffic_restriction_f4f">开四停四</string>
+    <string name="traffic_restriction_one_ring_title">本地小客车专段号牌尾号限行</string>
+    <string name="traffic_restriction_one_ring_desc">本地专段号牌、原段号牌小轿车尾号限行</string>
+    <string name="traffic_restriction_exclude_one_ring_title">本地小客车普通号牌限行</string>
+    <string name="traffic_restriction_exclude_one_ring_desc">本地专段号牌、原段号牌小轿车尾号限行</string>
+    <string name="traffic_restriction_other_title">外地小客车限行</string>
+    <string name="traffic_restriction_other_desc">临时驶入我市一环路（含一环路）以内道路的非本市9座以下载客汽车（含临时号牌车辆），连续行驶时间最长不得超过4天，再次驶入必须间隔4天以上</string>
+
+    <!--帮助布局-->
+    <string name="help_layout_title">您可以这样问我</string>
+    <string name="help_layout_call_title">打电话</string>
+    <string name="help_layout_call_tip1">我要给李明打电话</string>
+    <string name="help_layout_call_tip2">我要打给10086</string>
+
+    <string name="help_layout_message_title">发短信</string>
+    <string name="help_layout_message_tip1">给李明发短信</string>
+    <string name="help_layout_message_tip2">发送短信</string>
+
+    <string name="help_layout_change_title">转账</string>
+    <string name="help_layout_change_tip1">给周红转账300元</string>
+    <string name="help_layout_change_tip2">我要汇点钱</string>
+
+    <string name="help_layout_balance_title">余额查询</string>
+    <string name="help_layout_balance_tip1">我要查询余额</string>
+    <string name="help_layout_balance_tip2">查询信用卡额度</string>
+
+    <string name="help_layout_weather_title">天气预报</string>
+    <string name="help_layout_weather_tip1">贵阳今天天气怎么样</string>
+    <string name="help_layout_weather_tip2">今天会下雨吗</string>
+
+    <string name="help_layout_network_point_title">网点查询</string>
+    <string name="help_layout_network_point_tip1">网点查询</string>
+    <string name="help_layout_network_point_tip2">附近营业厅</string>
+
+    <string name="help_layout_gy_life_title">贵阳生活</string>
+    <string name="help_layout_gy_life_tip1">信用卡有哪些优惠</string>
+    <string name="help_layout_gy_life_tip2">信用卡活动</string>
+
+    <string name="help_layout_data_valley_title">数谷e贷</string>
+    <string name="help_layout_data_valley_tip1">申请贷款</string>
+    <string name="help_layout_data_valley_tip2">查看贷款产品</string>
+
+    <string name="help_layout_traffic_restriction_title">限号查询</string>
+    <string name="help_layout_traffic_restriction_tip1">我的车今天限号吗</string>
+    <string name="help_layout_traffic_restriction_tip2">限号查询</string>
+
+    <string name="help_layout_etc_title">ETC</string>
+    <string name="help_layout_etc_tip1">贵阳银行ETC</string>
+    <string name="help_layout_etc_tip2">ETC伴你行</string>
+
+    <string name="help_layout_sdb_title">爽得宝</string>
+    <string name="help_layout_sdb_tip1">购买爽得宝</string>
+    <string name="help_layout_sdb_tip2">爽得宝理财</string>
+
+    <string name="help_layout_creditcard_title">信用卡介绍</string>
+    <string name="help_layout_creditcard_tip1">查看信用卡</string>
+    <string name="help_layout_creditcard_tip2">办理信用卡</string>
+    <!--帮助布局-->
+</resources>

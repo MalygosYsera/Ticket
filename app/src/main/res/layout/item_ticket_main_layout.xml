@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:gravity="center_horizontal">
+
+    <EditText
+        android:id="@+id/startStation"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:ems="10"
+        android:textColor="@color/msg_receive_text_color"
+        android:hint="请输入起点站"
+        android:textColorHint="@color/input_type_tips_color"
+        android:text=""
+        android:textSize="16sp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:inputType="text"
+        android:background="@drawable/bg_input_amount"
+        />
+
+    <EditText
+        android:id="@+id/endStation"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="10dp"
+        android:ems="10"
+        android:textColor="@color/msg_receive_text_color"
+        android:hint="请输入终点站"
+        android:textColorHint="@color/input_type_tips_color"
+        android:text=""
+        android:maxLength="19"
+        android:textSize="16sp"
+        android:paddingLeft="16dp"
+        android:paddingRight="16dp"
+        android:inputType="text"
+        android:windowSoftInputMode="adjustUnspecified|stateHidden"
+        android:configChanges="orientation|keyboardHidden"
+        android:background="@drawable/bg_input_amount"
+        />
+
+    <!-- <Button
+         android:id="@+id/namePassConfirmBtn"
+         android:layout_width="match_parent"
+         android:layout_height="match_parent"
+         android:layout_marginTop="10dp"
+         android:background="@drawable/bg_item_validatemethod_select"
+         android:text="@string/amount_ok"
+         android:textSize="18sp"
+         android:textColor="@color/input_content_background_color"
+         />-->
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/confirmBtn"
+            android:layout_width="120dp"
+            android:layout_height="50dp"
+            android:background="@drawable/bg_item_validatemethod_press_selector"
+            android:text="查询"
+            android:textColor="@color/msg_send_text_color"
+            android:textSize="16dp" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <ListView
+            android:id="@+id/trainInfo"
+            android:layout_width="match_parent"
+            android:layout_height="400dp">
+        </ListView>
+    </LinearLayout>
+</LinearLayout>
